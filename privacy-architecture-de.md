@@ -221,25 +221,22 @@ Im Einzelnen:
 - Voraussetzung ist, dass der Proband über die Speicherung des verhashten Testergebnisses zum Zwecke der späteren Verifikation informiert wird und die Speicherung optional ist. 
 
 3. Durch die Löschung des Geheimnis im Anschluss an die Hashwertbildung bei dem Labor werden die Daten für das Labor (und alle anderen Beteiligten) anonym. Ohne das Geheimnis kann niemand den gleichen Hashwert bilden und eine Zuordnung nicht vornehmen. 
-    *   Auch die Anonymisierung ist nach überwiegender Ansicht eine Verarbeitung, die rechtfertigungsbedürftig ist (Art.-29-Datenschutzgruppe, WP 216, S. 8, 12; Hansen in Simitis/Hornung/Spiecker, Datenschutzrecht, 2019, Art. 4 Nr. 5, Rn. 23). 
-    *   Bei der Rechtfertigung gelten die gleichen Erwägungen, wie bei der Pseudonymisierung: Art. 9 DSGVO ist möglicherweise ohnehin nicht anwendbar, weil es um die Anonymisierung eines Hashwerts (und nicht Gesundheitsdaten) geht, jedenfalls aber ist Art. 9 DSGVO um die Fälle der Anonymisierung teleologisch zu reduzieren (s.o.). 
-    *   Für die Interessenabwägung gelten die Ausführung zu (b) entsprechend.
+- Auch die Anonymisierung ist nach überwiegender Ansicht eine Verarbeitung, die rechtfertigungsbedürftig ist (Art.-29-Datenschutzgruppe, WP 216, S. 8, 12; Hansen in Simitis/Hornung/Spiecker, Datenschutzrecht, 2019, Art. 4 Nr. 5, Rn. 23). 
+- Bei der Rechtfertigung gelten die gleichen Erwägungen, wie bei der Pseudonymisierung: Art. 9 DSGVO ist möglicherweise ohnehin nicht anwendbar, weil es um die Anonymisierung eines Hashwerts (und nicht Gesundheitsdaten) geht, jedenfalls aber ist Art. 9 DSGVO um die Fälle der Anonymisierung teleologisch zu reduzieren (s.o.). 
+- Für die Interessenabwägung gelten die Ausführung zu (b) entsprechend.
+
 4. Die Signierung des verhashten Testergebnisses und die Übermittlung an UBIRCH ist streng genommen schon kein rechtfertigungsbedürftiger Vorgang, weil die verarbeiteten Daten (B+C) nach der Löschung des Geheimnisses bei dem Labor sowohl für das Labor, als auch UBIRCH anonym sind. Niemand außer dem Probanden selbst kann die einzelnen Datensätze einzelnen natürlichen Personen zuordnen. Die verhashten Daten liegen wie verschlüsselte Daten, deren Schlüssel allein der Inhaber der Daten hat, in der Datenbank. 
-
 Unterstellt man ungeachtet dessen, dass es sich insbesondere bei dem Hashwert (B) noch um pseudonyme Informationen handelt, ist die Übermittlung an UBIRCH und die dortige Speicherung rechtfertigungsbedürftig. 
-
 Diese Rechtfertigung ergibt sich ggf. erneut aus berechtigten Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO). 
+- Ein solches besteht im Interesse des Labors, die vom Patienten gewünschte Verifikationsmöglichkeit mit Unterstützung eines verlässlichen und fähigen Dienstleisters mit der entsprechenden technischen (Blockchain-)Infrastruktur anbieten zu können. Entsprechende erfolgt die Verarbeitung der Daten bei UBIRCH im Auftrag des Labors unter Abschluss einer entsprechenden Auftragsverarbeitungsvereinbarung nach Art. 28 DSGVO zwischen Labor und UBIRCH. 
+- UBIRCH ist dann wegen Art. 4 Nr. 10 DSGVO nicht Dritter. 
+- Für die Interessenabwägung im Übrigen gelten die Überlegungen zur Pseudonymisierung bei (b) entsprechend.
 
-    *   Ein solches besteht im Interesse des Labors, die vom Patienten gewünschte Verifikationsmöglichkeit mit Unterstützung eines verlässlichen und fähigen Dienstleisters mit der entsprechenden technischen (Blockchain-)Infrastruktur anbieten zu können. Entsprechende erfolgt die Verarbeitung der Daten bei UBIRCH im Auftrag des Labors unter Abschluss einer entsprechenden Auftragsverarbeitungsvereinbarung nach Art. 28 DSGVO zwischen Labor und UBIRCH. 
-    *   UBIRCH ist dann wegen Art. 4 Nr. 10 DSGVO nicht Dritter. 
-    *   Für die Interessenabwägung im Übrigen gelten die Überlegungen zur Pseudonymisierung bei (b) entsprechend.
 5. Die erneute Hashwertbildung bei UBIRCH (D) und die Speicherung der Hashwerte in den Merkle-Bäumen und der Blockchain (E+F) sind jeweils Verarbeitung anonymer Daten, weil jedenfalls für UBIRCH diese Daten anonym sind. UBIRCH hat keinerlei Möglichkeit, ohne Zutun des Probanden einen Bezug zu diesem herzustellen.  \
 Sieht man ungeachtet dessen in der erneuten Hashwertbildung eine Anonymisierung zunächst pseudonymer Daten und verlangt man dafür nach der wohl h.M. eine gesetzliche Rechtfertigung, ist diese wiederum ohne Weiteres durch Art. 6 Abs. 1 S. 1 lit. f DSGVO gerechtfertigt. Das berechtigte Interesse des Verantwortlichen (Labor) besteht auch hier nicht zuletzt darin, den Vorgaben der DSGVO entsprechend auf eine umfassende Datenminimierung entsprechend Art. 5 Abs. 1 lit. e) DSGVO hinzuwirken. zudem wird UBIRCH in der AV-Vereinbarung mit dem Labor explizit angewiesen, diesen Hashwert für die spätere Verifikation des Tests und die Speicherung in der Blockchain zu bilden.
+
 6. Auch bei der Verifizierung findet eine Datenverarbeitung statt. Angestoßen vom Probanden werden die bei UBIRCH vorhandenen Hashwerte mit dem vom Probanden selbst neu erzeugten Hashwert verglichen. Der Proband initiiert eine Übermittlung des Hashwerts an UBIRCH. 
-
 Für UBIRCH ist dabei nicht erkennbar, wessen Daten der jeweils angefragte Hashwert betrifft. Selbst wenn man entgegen der oben dargestellten Erwägungen annehmen wollte, dass die Hashwerte in diesem Zeitpunkt noch als personenbezogene Daten angesehen werden, ist die Datenverarbeitung jedoch gerechtfertigt, weil der Proband genau diesen Abgleich anstößt. 
-
-
 Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, weil UBIRCH den Abgleich (möglicherweise sogar dem Probanden) schuldet. Alternativ kommt eine Rechtfertigung nach Art. 6 Abs. 1 S. 1 lit. f DSGVO in Betracht, weil die Datenverarbeitung im Interesse von UBIRCH liegt, für den Zweck erforderlich ist und der Betroffene jedenfalls mit dem Abgleich rechnet, weil er ihn selbst angestoßen hat. 
 
 
@@ -259,15 +256,13 @@ UBIRCH bietet hier ein entsprechendes Template an.
 
 Bevor UBIRCH Daten in die Blockchain speichert, werden zwei Anonymisierungsschritte vorgenommen: 
 
+- Zum einen wird nach der Hashwertbildung (A) das Geheimnis bei dem Labor gelöscht, so dass eine erneute Erstellung des gleichen Hashwerts nicht mehr möglich und eine Zuordnung der gespeicherten Daten (B) unmöglich ist. Eine Zuordnung der Daten ist dann nur noch durch den Probanden selbst möglich.
 
+Unter Berücksichtigung des Grundsatzes des relativen Personenbezugs stellt bereits diese Vorgehensweise eine Anonymisierung der Daten dar, weil sich aus Sicht des jeweils Verantwortlichen (Labor und UBIRCH) nach unwiderruflicher Löschung des Geheimnisses kein Bezug mehr zu einer natürlichen Person herstellen lässt. Durch eine Einweg-Verschlüsselung oder Verhashung entstehen gewöhnlich anonymisierte Daten, es sei denn, der jeweils anderen Stelle stehen Mittel zur Verfügung, um den Personenbezug mit verhältnismäßigem Aufwand wiederherzustellen (vgl. Arning/Rothkegel in Taeger/ Gabel, DSGVO, 3. Aufl. 2019, Art. 4 Rn. 51). Das Geheimnis als Schlüssel stellt vorliegend das einzige den Beteiligten potenziell zur Verfügung stehende Mittel zur Zuordnung der Daten zu einer natürlichen Person dar. Insofern wird der Schlüssel nicht (wie bei einer Pseudonymisierung) lediglich sicher (bei einer anderen verantwortlichen Stelle) aufbewahrt, sondern unwiderruflich aus der Sphäre und damit jeder Zugriffsmöglichkeit von Labor und UBIRCH gelöscht, sodass eine Re-Identifizierung nicht möglich ist.
 
-*   Zum einen wird nach der Hashwertbildung (A) das Geheimnis bei dem Labor gelöscht, so dass eine erneute Erstellung des gleichen Hashwerts nicht mehr möglich und eine Zuordnung der gespeicherten Daten (B) unmöglich ist. Eine Zuordnung der Daten ist dann nur noch durch den Probanden selbst möglich.
+- Diese Daten (B)+(C) werden anschließend durch UBIRCH über SHA512 erneut verhasht (E). Die in die Blockchain geschriebenen Daten lassen sich nicht zurückverfolgen. Insbesondere werden weder dem Labor noch UBIRCH durch die Abfrage per QR-Code zusätzliche Informationen oder Mittel zur Verfügung gestellt, die eine Zuordnung der Testergebnisse zu einer bestimmten Person ermöglichen würden. Es kann lediglich ermittelt werden, ob die Kombination aus (B) und (C) zu einem früheren Zeitpunkt vom betreffenden signiert und in die Blockchain geschrieben wurde. 
 
-    Unter Berücksichtigung des Grundsatzes des relativen Personenbezugs stellt bereits diese Vorgehensweise eine Anonymisierung der Daten dar, weil sich aus Sicht des jeweils Verantwortlichen (Labor und UBIRCH) nach unwiderruflicher Löschung des Geheimnisses kein Bezug mehr zu einer natürlichen Person herstellen lässt. Durch eine Einweg-Verschlüsselung oder Verhashung entstehen gewöhnlich anonymisierte Daten, es sei denn, der jeweils anderen Stelle stehen Mittel zur Verfügung, um den Personenbezug mit verhältnismäßigem Aufwand wiederherzustellen (vgl. Arning/Rothkegel in Taeger/ Gabel, DSGVO, 3. Aufl. 2019, Art. 4 Rn. 51). Das Geheimnis als Schlüssel stellt vorliegend das einzige den Beteiligten potenziell zur Verfügung stehende Mittel zur Zuordnung der Daten zu einer natürlichen Person dar. Insofern wird der Schlüssel nicht (wie bei einer Pseudonymisierung) lediglich sicher (bei einer anderen verantwortlichen Stelle) aufbewahrt, sondern unwiderruflich aus der Sphäre und damit jeder Zugriffsmöglichkeit von Labor und UBIRCH gelöscht, sodass eine Re-Identifizierung nicht möglich ist.
-
-*   Diese Daten (B)+(C) werden anschließend durch UBIRCH über SHA512 erneut verhasht (E). Die in die Blockchain geschriebenen Daten lassen sich nicht zurückverfolgen. Insbesondere werden weder dem Labor noch UBIRCH durch die Abfrage per QR-Code zusätzliche Informationen oder Mittel zur Verfügung gestellt, die eine Zuordnung der Testergebnisse zu einer bestimmten Person ermöglichen würden. Es kann lediglich ermittelt werden, ob die Kombination aus (B) und (C) zu einem früheren Zeitpunkt vom betreffenden signiert und in die Blockchain geschrieben wurde. 
-
-Die Daten sind demnach anonym zu betrachten, weil ohne die Mitwirkung des Probanden keine Möglichkeit besteht, diese Daten einer Person zuzuordnen.
+**Die Daten sind demnach anonym zu betrachten, weil ohne die Mitwirkung des Probanden keine Möglichkeit besteht, diese Daten einer Person zuzuordnen.
 
 
 ## Geheimhaltungsverpflichtung 
