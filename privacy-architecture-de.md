@@ -229,10 +229,9 @@ Die einzelnen Schritte der Datenverarbeitung sind jeweils datenschutzrechtlich g
     *   Für die Interessenabwägung gelten die Ausführung zu (b) entsprechend.
 4. Die Signierung des verhashten Testergebnisses und die Übermittlung an UBIRCH ist streng genommen schon kein rechtfertigungsbedürftiger Vorgang, weil die verarbeiteten Daten (B+C) nach der Löschung des Geheimnisses bei dem Labor sowohl für das Labor, als auch UBIRCH anonym sind. Niemand außer dem Probanden selbst kann die einzelnen Datensätze einzelnen natürlichen Personen zuordnen. Die verhashten Daten liegen wie verschlüsselte Daten, deren Schlüssel allein der Inhaber der Daten hat, in der Datenbank. 
 
-        Unterstellt man ungeachtet dessen, dass es sich insbesondere bei dem Hashwert (B) noch um pseudonyme Informationen handelt, ist die Übermittlung an UBIRCH und die dortige Speicherung rechtfertigungsbedürftig. 
+Unterstellt man ungeachtet dessen, dass es sich insbesondere bei dem Hashwert (B) noch um pseudonyme Informationen handelt, ist die Übermittlung an UBIRCH und die dortige Speicherung rechtfertigungsbedürftig. 
 
-
-        Diese Rechtfertigung ergibt sich ggf. erneut aus berechtigten Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO). 
+Diese Rechtfertigung ergibt sich ggf. erneut aus berechtigten Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO). 
 
     *   Ein solches besteht im Interesse des Labors, die vom Patienten gewünschte Verifikationsmöglichkeit mit Unterstützung eines verlässlichen und fähigen Dienstleisters mit der entsprechenden technischen (Blockchain-)Infrastruktur anbieten zu können. Entsprechende erfolgt die Verarbeitung der Daten bei UBIRCH im Auftrag des Labors unter Abschluss einer entsprechenden Auftragsverarbeitungsvereinbarung nach Art. 28 DSGVO zwischen Labor und UBIRCH. 
     *   UBIRCH ist dann wegen Art. 4 Nr. 10 DSGVO nicht Dritter. 
@@ -241,10 +240,10 @@ Die einzelnen Schritte der Datenverarbeitung sind jeweils datenschutzrechtlich g
 Sieht man ungeachtet dessen in der erneuten Hashwertbildung eine Anonymisierung zunächst pseudonymer Daten und verlangt man dafür nach der wohl h.M. eine gesetzliche Rechtfertigung, ist diese wiederum ohne Weiteres durch Art. 6 Abs. 1 S. 1 lit. f DSGVO gerechtfertigt. Das berechtigte Interesse des Verantwortlichen (Labor) besteht auch hier nicht zuletzt darin, den Vorgaben der DSGVO entsprechend auf eine umfassende Datenminimierung entsprechend Art. 5 Abs. 1 lit. e) DSGVO hinzuwirken. zudem wird UBIRCH in der AV-Vereinbarung mit dem Labor explizit angewiesen, diesen Hashwert für die spätere Verifikation des Tests und die Speicherung in der Blockchain zu bilden.
 6. Auch bei der Verifizierung findet eine Datenverarbeitung statt. Angestoßen vom Probanden werden die bei UBIRCH vorhandenen Hashwerte mit dem vom Probanden selbst neu erzeugten Hashwert verglichen. Der Proband initiiert eine Übermittlung des Hashwerts an UBIRCH. 
 
-        Für UBIRCH ist dabei nicht erkennbar, wessen Daten der jeweils angefragte Hashwert betrifft. Selbst wenn man entgegen der oben dargestellten Erwägungen annehmen wollte, dass die Hashwerte in diesem Zeitpunkt noch als personenbezogene Daten angesehen werden, ist die Datenverarbeitung jedoch gerechtfertigt, weil der Proband genau diesen Abgleich anstößt. 
+Für UBIRCH ist dabei nicht erkennbar, wessen Daten der jeweils angefragte Hashwert betrifft. Selbst wenn man entgegen der oben dargestellten Erwägungen annehmen wollte, dass die Hashwerte in diesem Zeitpunkt noch als personenbezogene Daten angesehen werden, ist die Datenverarbeitung jedoch gerechtfertigt, weil der Proband genau diesen Abgleich anstößt. 
 
 
-        Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, weil UBIRCH den Abgleich (möglicherweise sogar dem Probanden) schuldet. Alternativ kommt eine Rechtfertigung nach Art. 6 Abs. 1 S. 1 lit. f DSGVO in Betracht, weil die Datenverarbeitung im Interesse von UBIRCH liegt, für den Zweck erforderlich ist und der Betroffene jedenfalls mit dem Abgleich rechnet, weil er ihn selbst angestoßen hat. 
+Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, weil UBIRCH den Abgleich (möglicherweise sogar dem Probanden) schuldet. Alternativ kommt eine Rechtfertigung nach Art. 6 Abs. 1 S. 1 lit. f DSGVO in Betracht, weil die Datenverarbeitung im Interesse von UBIRCH liegt, für den Zweck erforderlich ist und der Betroffene jedenfalls mit dem Abgleich rechnet, weil er ihn selbst angestoßen hat. 
 
 
 
