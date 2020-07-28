@@ -18,8 +18,9 @@ Labore können in Kooperation mit dem Partner D-TRUST/Bundesdruckerei einmalig e
 
 ## Datenflüsse
 
+Grundsätzlich sind zwei Verfahrens-Schritte zu unterscheiden - zunächst werden Labor-Ergebnisse bei deren Entstehung digital anonymisiert und verankert. Später können die so verankerten digitalen Nachweise verwendet werden, um die Echtheit eines Labor-Ergebnisses zu beweisen. 
 
-1. Blockchain-Verankerung/Ausstellung von digitalen Zertifikaten
+1. **Blockchain-Verankerung/Ausstellung von digitalen Zertifikaten**
 
 Die Labor-Ergebnisse werden im Kontext des Labores (in den IT-Systemen) anonymisiert und auf Basis einer DVV (s.u.) an das Corona-Zertifikats-System übertragen. Dort werden die Daten anonym weiterverarbeitet, d.h. sie können ohne Einbezug des Getesteten nicht mehr auf eine Person zurückgerechnet werden.
 
@@ -98,7 +99,7 @@ Die Labor-Ergebnisse werden im Kontext des Labores (in den IT-Systemen) anonymis
 
 
 
-2. Verifikation gegen die Zertifikats-Information in der Blockchain
+2. **Verifikation gegen die Zertifikats-Information in der Blockchain**
 
 Für die Verifikation kann nun eine getestete Person Ihr Testergebnis in digitaler Form vorzeigen (z.B. als QR code). Die verifizierende Stelle kann aus dieser “Behauptung” einen Prüf-Hash berechnen und über das Corona-Zertifikats-System verifizieren, ob die Aussage des gezeigten Test-Ergebnisses stimmt und wirklich aus einem verifizierten Labor stammt.
 
@@ -273,13 +274,12 @@ UBIRCH unterwirft sich vertraglich einer Geheimhaltungsverpflichtung gem  § 203
 
 ## Datenschutz-Beauftragter
 
-UBIRCH: 				Gregor Klar: klar@brainosphere.de
+Gregor Klar: klar@brainosphere.de
 
 
 ## Wahrung von Betroffenenrechten
 
 Soweit personenbezogene Daten gespeichert werden, stehen den Probanden ihre Betroffenenrechte aus Art. 15 ff. DSGVO zu. Diese sind in der hier beschriebenen Konstellation an das Labor zu adressieren, weil diese Verantwortlicher ist.  
-
 
 
 1. **Auskunft**
