@@ -19,4 +19,4 @@ All major parts used in this project are published as OSS Software under Apache 
 
 --> Demo QR-Code for Verification:
 
-![PCR_qrcode.png]
+![QR Code][PCR_qrcode.png]
