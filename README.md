@@ -15,4 +15,4 @@
 
 ## Governance/Open Source
 
-> All major parts used in this project are published as OSS Software under Apache Licence 2.0. The UBIRCH protocol can be found [here](https://github.com/ubirch/ubirch-client-go), the UBIRCH Go-client which is used to anchor lab-results can be found here.
+> All major parts used in this project are published as OSS Software under Apache Licence 2.0. The UBIRCH protocol can be found [here](https://github.com/ubirch/ubirch-client-go), the UBIRCH Go-client which is used to anchor lab-results can be found [here](https://github.com/ubirch/ubirch-protocol). The UBIRCH verification Widget that can be used to verify a lab-result can be found [here](https://github.com/ubirch/ubirch-verify-widget).
