@@ -262,7 +262,7 @@ Unter Berücksichtigung des Grundsatzes des relativen Personenbezugs stellt bere
 
 - Diese Daten (B)+(C) werden anschließend durch UBIRCH über SHA512 erneut verhasht (E). Die in die Blockchain geschriebenen Daten lassen sich nicht zurückverfolgen. Insbesondere werden weder dem Labor noch UBIRCH durch die Abfrage per QR-Code zusätzliche Informationen oder Mittel zur Verfügung gestellt, die eine Zuordnung der Testergebnisse zu einer bestimmten Person ermöglichen würden. Es kann lediglich ermittelt werden, ob die Kombination aus (B) und (C) zu einem früheren Zeitpunkt vom betreffenden signiert und in die Blockchain geschrieben wurde. 
 
-** Die Daten sind demnach anonym zu betrachten, weil ohne die Mitwirkung des Probanden keine Möglichkeit besteht, diese Daten einer Person zuzuordnen. **
+**Die Daten sind demnach anonym zu betrachten, weil ohne die Mitwirkung des Probanden keine Möglichkeit besteht, diese Daten einer Person zuzuordnen.**
 
 
 ## Geheimhaltungsverpflichtung 
