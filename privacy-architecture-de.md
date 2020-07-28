@@ -19,10 +19,9 @@ Labore können in Kooperation mit dem Partner D-TRUST/Bundesdruckerei einmalig e
 ## Datenflüsse
 
 
-
 1. Blockchain-Verankerung/Ausstellung von digitalen Zertifikaten
 
-    Die Labor-Ergebnisse werden im Kontext des Labores (in den IT-Systemen) anonymisiert und auf Basis einer DVV (s.u.) an das Corona-Zertifikats-System übertragen. Dort werden die Daten anonym weiterverarbeitet, d.h. sie können ohne Einbezug des Getesteten nicht mehr auf eine Person zurückgerechnet werden.
+Die Labor-Ergebnisse werden im Kontext des Labores (in den IT-Systemen) anonymisiert und auf Basis einer DVV (s.u.) an das Corona-Zertifikats-System übertragen. Dort werden die Daten anonym weiterverarbeitet, d.h. sie können ohne Einbezug des Getesteten nicht mehr auf eine Person zurückgerechnet werden.
 
 
 ![alt_text](Corona_Verifier-Create.png "image_tooltip")
@@ -101,7 +100,7 @@ Labore können in Kooperation mit dem Partner D-TRUST/Bundesdruckerei einmalig e
 
 2. Verifikation gegen die Zertifikats-Information in der Blockchain
 
-    Für die Verifikation kann nun eine getestete Person Ihr Testergebnis in digitaler Form vorzeigen (z.B. als QR code). Die verifizierende Stelle kann aus dieser “Behauptung” einen Prüf-Hash berechnen und über das Corona-Zertifikats-System verifizieren, ob die Aussage des gezeigten Test-Ergebnisses stimmt und wirklich aus einem verifizierten Labor stammt.
+Für die Verifikation kann nun eine getestete Person Ihr Testergebnis in digitaler Form vorzeigen (z.B. als QR code). Die verifizierende Stelle kann aus dieser “Behauptung” einen Prüf-Hash berechnen und über das Corona-Zertifikats-System verifizieren, ob die Aussage des gezeigten Test-Ergebnisses stimmt und wirklich aus einem verifizierten Labor stammt.
 
 
 ![alt_text](Corona_Verifier-Verify.png "image_tooltip")
@@ -189,6 +188,8 @@ Labore können in Kooperation mit dem Partner D-TRUST/Bundesdruckerei einmalig e
 
 Die einzelnen Schritte der Datenverarbeitung sind jeweils datenschutzrechtlich gerechtfertigt und stehen im Einklang mit der DSGVO. Dabei ist je nach Konstellation sowohl eine rechtfertigende Einwilligung des Probanden als auch eine Rechtfertigung mit berechtigten Interessen des Labors denkbar. In jedem Falle muss der Proband die Wahl haben, ob sein Testergebnis in anonymisierter Form gespeichert und für eine spätere Verifikation abgelegt wird. 
 
+Die Einwilligung des Probanden/der Probandin ist grundsätzlich vorzuziehen, es gibt allerdings Kontexte, in denen keine wirksame derartige Einwilligung erhoben werden kann (z.B. Arbeitgeber/in-Arbeitnehmer/in). In diesen Fällen ist es denkbar das System über berechtigte Interessen zu betreiben und auf der Seite der Betroffenen z.B. zusätzlich mit Kollektiv-Vereinbarungen zu arbeiten.
+
 
 
 ### Rechtfertigung mit einer Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)
@@ -208,7 +209,7 @@ Auch ohne eine Einwilligung ist eine datenschutzrechtliche Rechtfertigung denkba
 5. Erneute Hashwertbildung und Speicherung in der Blockchain
 6. Verifizierung 
 
-Im Einzelnen:
+**Im Einzelnen:**
 
 1. Die Datenübermittlung vom Probanden bzw. behandelnden Arzt an das Labor geschieht aufgrund der Erfüllung des Behandlungsvertrages (Art. 6 Abs. 1 S. 1 lit. b DSGVO) oder einer Einwilligung des Probanden (Art. 6 Abs. 1 S. 1 lit. a DSGVO).
 2. Die Hashwertbildung aus den personenbezogenen Daten des Probanden, dem PCR und dem Geheimnis (A) ist zunächst eine Pseudonymisierung der Daten (Das Labor verhasht die Daten, ist jedoch zunächst im Besitz des Geheimnisses, und könnte mit den gleichen Daten wieder auf den gleichen Hashwert kommen, so dass es sich um pseudonyme Daten handelt). 
