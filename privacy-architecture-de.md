@@ -1,10 +1,10 @@
 # Digitalisierung von Labor-Ergebnissen
 
 
-# Datenschutzinfo Labore 
+## Datenschutzinfo Labore 
 
 
-# Vorwort
+## Vorwort
 
 Das System dient dazu, ein Testergebnis aus dem Labor datenschutzfreundlich in einem Blockchain-basierten Backend als Zertifikat abzulegen, so dass der User/die Userin das Testergebnis jederzeit gegen dieses Zertifikat verifizieren kann, um zu beweisen dass dieses Testergebnis valide ist. 
 
@@ -23,11 +23,6 @@ Labore können in Kooperation mit dem Partner D-TRUST/Bundesdruckerei einmalig e
 1. Blockchain-Verankerung/Ausstellung von digitalen Zertifikaten
 
     Die Labor-Ergebnisse werden im Kontext des Labores (in den IT-Systemen) anonymisiert und auf Basis einer DVV (s.u.) an das Corona-Zertifikats-System übertragen. Dort werden die Daten anonym weiterverarbeitet, d.h. sie können ohne Einbezug des Getesteten nicht mehr auf eine Person zurückgerechnet werden.
-
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](Corona_Verifier-Create.png "image_tooltip")
@@ -107,11 +102,6 @@ Labore können in Kooperation mit dem Partner D-TRUST/Bundesdruckerei einmalig e
 2. Verifikation gegen die Zertifikats-Information in der Blockchain
 
     Für die Verifikation kann nun eine getestete Person Ihr Testergebnis in digitaler Form vorzeigen (z.B. als QR code). Die verifizierende Stelle kann aus dieser “Behauptung” einen Prüf-Hash berechnen und über das Corona-Zertifikats-System verifizieren, ob die Aussage des gezeigten Test-Ergebnisses stimmt und wirklich aus einem verifizierten Labor stammt.
-
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](Corona_Verifier-Verify.png "image_tooltip")
