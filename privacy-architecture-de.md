@@ -191,7 +191,7 @@ Die einzelnen Schritte der Datenverarbeitung sind jeweils datenschutzrechtlich g
 
 
 
-1. Rechtfertigung mit einer Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)
+### Rechtfertigung mit einer Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)
 
     In Betracht kommt eine Einwilligung des Probanden. Dafür muss der Proband vor der Speicherung des Testergebnisses erklären, dass er mit der dauerhaften Speicherung der Daten in der beschriebenen Form einverstanden ist. 
 
@@ -201,9 +201,9 @@ Die einzelnen Schritte der Datenverarbeitung sind jeweils datenschutzrechtlich g
 
     Das gesamte Prozedere muss dem Probanden in transparenter Form erläutert werden, damit sich die Einwilligung auf den gesamten Vorgang bezieht.
 
-2. Rechtfertigung mit berechtigten Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)
+### Rechtfertigung mit berechtigten Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)
 
-    Auch ohne eine Einwilligung ist eine datenschutzrechtliche Rechtfertigung denkbar. Im Folgenden werden die einzelnen Schritte hinsichtlich ihrer datenschutzrechtlichen Zulässigkeit kurz skizziert:
+Auch ohne eine Einwilligung ist eine datenschutzrechtliche Rechtfertigung denkbar. Im Folgenden werden die einzelnen Schritte hinsichtlich ihrer datenschutzrechtlichen Zulässigkeit kurz skizziert:
 
 1. Datenübermittlung vom Probanden (ggf. über den Arzt) an das Labor
 2. Hashwertbildung aus den Daten (A)
@@ -212,17 +212,18 @@ Die einzelnen Schritte der Datenverarbeitung sind jeweils datenschutzrechtlich g
 5. Erneute Hashwertbildung und Speicherung in der Blockchain
 6. Verifizierung 
 
-    Im Einzelnen:
+Im Einzelnen:
 
 1. Die Datenübermittlung vom Probanden bzw. behandelnden Arzt an das Labor geschieht aufgrund der Erfüllung des Behandlungsvertrages (Art. 6 Abs. 1 S. 1 lit. b DSGVO) oder einer Einwilligung des Probanden (Art. 6 Abs. 1 S. 1 lit. a DSGVO).
 2. Die Hashwertbildung aus den personenbezogenen Daten des Probanden, dem PCR und dem Geheimnis (A) ist zunächst eine Pseudonymisierung der Daten (Das Labor verhasht die Daten, ist jedoch zunächst im Besitz des Geheimnisses, und könnte mit den gleichen Daten wieder auf den gleichen Hashwert kommen, so dass es sich um pseudonyme Daten handelt). 
-    *   Pseudonymisierung ist eine Datenverarbeitung, die rechtfertigungsbedürftig ist.
-    *   Zwar handelt es sich jedenfalls bei den Testergebnissen um Gesundheitsdaten, so dass grundsätzlich die besonderen Voraussetzungen von Art. 9 Abs. 2 DSGVO gelten. Doch geht die herrschende Literatur davon aus, dass für Datenverarbeitungsvorgänge, die dem Betroffenen und dem Schutz seiner Daten dienen (wie Pseudonymisierung, Anonymisierung, Löschung), nicht die Voraussetzungen von Art. 9 DSGVO gelten, sondern dieser um diese Fälle teleologisch zu reduzieren ist (vgl. Hornung/ Wagner, ZD 2020, 223, 225 mit ausführlicher Begründung). Demnach können derartige Datenverarbeitungsvorgänge auch nach Art. 6 Abs. 1 S. 1 lit. f DSGVO gerechtfertigt sein.
-    *   Die drei maßgeblichen Voraussetzungen liegen hier vor:
-*   Die Verarbeitung entspricht einem berechtigten Interesse des Labors, namentlich dem Interesse an der pseudonymen/anonymen Speicherung des Testergebnisses zur späteren Verifikation für den Probanden, nicht zuletzt um dem Datenschutzgrundprinzip der Datenminimierung aus Art. 5 Abs. 1 lit. e) DSGVO zu entsprechen.
+- Pseudonymisierung ist eine Datenverarbeitung, die rechtfertigungsbedürftig ist.
+- Zwar handelt es sich jedenfalls bei den Testergebnissen um Gesundheitsdaten, so dass grundsätzlich die besonderen Voraussetzungen von Art. 9 Abs. 2 DSGVO gelten. Doch geht die herrschende Literatur davon aus, dass für Datenverarbeitungsvorgänge, die dem Betroffenen und dem Schutz seiner Daten dienen (wie Pseudonymisierung, Anonymisierung, Löschung), nicht die Voraussetzungen von Art. 9 DSGVO gelten, sondern dieser um diese Fälle teleologisch zu reduzieren ist (vgl. Hornung/ Wagner, ZD 2020, 223, 225 mit ausführlicher Begründung). Demnach können derartige Datenverarbeitungsvorgänge auch nach Art. 6 Abs. 1 S. 1 lit. f DSGVO gerechtfertigt sein.
+- Die drei maßgeblichen Voraussetzungen liegen hier vor:
+- - Die Verarbeitung entspricht einem berechtigten Interesse des Labors, namentlich dem Interesse an der pseudonymen/anonymen Speicherung des Testergebnisses zur späteren Verifikation für den Probanden, nicht zuletzt um dem Datenschutzgrundprinzip der Datenminimierung aus Art. 5 Abs. 1 lit. e) DSGVO zu entsprechen.
 *   Die Verarbeitung ist für diesen Zweck auch erforderlich. 
 *   Angesichts dessen, dass der Proband weiß, dass die Daten pseudonym und gesichert gespeichert werden, stehen seine Interessen auch nicht entgegen. Hinzu kommt, dass Vorkehrungen getroffen werden, dass die Daten für Dritte nicht einsehbar sind.
     *   Voraussetzung ist, dass der Proband über die Speicherung des verhashten Testergebnisses zum Zwecke der späteren Verifikation informiert wird und die Speicherung optional ist. 
+
 3. Durch die Löschung des Geheimnis im Anschluss an die Hashwertbildung bei dem Labor werden die Daten für das Labor (und alle anderen Beteiligten) anonym. Ohne das Geheimnis kann niemand den gleichen Hashwert bilden und eine Zuordnung nicht vornehmen. 
     *   Auch die Anonymisierung ist nach überwiegender Ansicht eine Verarbeitung, die rechtfertigungsbedürftig ist (Art.-29-Datenschutzgruppe, WP 216, S. 8, 12; Hansen in Simitis/Hornung/Spiecker, Datenschutzrecht, 2019, Art. 4 Nr. 5, Rn. 23). 
     *   Bei der Rechtfertigung gelten die gleichen Erwägungen, wie bei der Pseudonymisierung: Art. 9 DSGVO ist möglicherweise ohnehin nicht anwendbar, weil es um die Anonymisierung eines Hashwerts (und nicht Gesundheitsdaten) geht, jedenfalls aber ist Art. 9 DSGVO um die Fälle der Anonymisierung teleologisch zu reduzieren (s.o.). 
