@@ -19,4 +19,5 @@ All major parts used in this project are published as OSS Software under Apache 
 
 ## Demo QR-Code for Verification
 
+> ⚠ The processing of information is done on the scanner device. Only anonymized data is sent to retrieve the verification data that is then analyzed on the device.
 ![QR Code](PCR_qrcode.png)
