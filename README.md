@@ -11,7 +11,7 @@ The idea of this system is to make a lab-result available in a digital form in a
 ## Involved Parties/legal entities
 
 At the moment the system described in this repository is operated by UBIRCH GmbH. Some of the services, especially the used public blockchain are operated by other parties, in this case Govdigital e.G.. For some sub-services like the digital lab-certificates for instance services from other players might be used, too (e.g. bundesdruckerei/d-trust). 
-The system is meant to be used as a middleware with interfaces and APIs - therefore in real life use-cases it will usually appear embedded into other systems, e.g. patient information systems, entrance management systems etc. - all these other services are under their respective control and would require their own privacy concepts.
+The system is meant to be used as a middleware with interfaces and APIs - therefore in real life use-cases it will usually appear embedded into other systems, e.g. patient information systems, entrance management systems etc. - all these other services are under their respective control and would require their own privacy concepts. The system can also be integrated with self sovereign identity (SSI) solutions, this has been demonstrated with [Lissi](https://lissi.id/) and [zaka](https://www.zaka.io/) so far.
 A dedicated verification app is available by our partner LH Industry Solutions under their own control.
 
 ## Governance/Open Source
