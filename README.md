@@ -16,7 +16,7 @@ A dedicated verification app is available by our partner LH Industry Solutions u
 
 ## Governance/Open Source
 
-All major parts used in this project are published as OSS Software under Apache Licence 2.0. The UBIRCH protocol can be found [here](https://github.com/ubirch/ubirch-client-go), the UBIRCH Go-client which is used to anchor lab-results can be found [here](https://github.com/ubirch/ubirch-protocol). The UBIRCH verification widget used to verify a lab-result can be found [here](https://github.com/ubirch/ubirch-verify-widget). A demo page based on this can be found [here](https://ubirch.de/v#f=Mustermann;g=Erika;b=19640812;p=T01000322;i=3CF75K8D0L;d=202007011030;t=PCR;r=n;s=2fe00c151cb726bb9ed7).
+All major parts used in this project are published as OSS Software under Apache Licence 2.0. The UBIRCH protocol can be found [here](https://github.com/ubirch/ubirch-protocol), the UBIRCH Go-client which is used to anchor lab-results can be found [here](https://github.com/ubirch/ubirch-client-go). The UBIRCH verification widget used to verify a lab-result can be found [here](https://github.com/ubirch/ubirch-verify-widget). A demo page based on this can be found [here](https://ubirch.de/v#f=Mustermann;g=Erika;b=19640812;p=T01000322;i=3CF75K8D0L;d=202007011030;t=PCR;r=n;s=2fe00c151cb726bb9ed7).
 
 ## Demo QR-Code for Verification
 
