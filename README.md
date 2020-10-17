@@ -23,3 +23,7 @@ All major parts used in this project are published as OSS Software under Apache 
 > ⚠ The processing of information is done on the scanner device. Only anonymized data is sent to retrieve the verification data that is then analyzed on the device.
 
 ![QR Code](PCR_qrcode.png)
+
+## Example of a real Lab-Result incl. QR-Code
+![Test-Report PDF](0010332532_201016_0040_E_O_MC_EM_01_201017_0029_0001_sig.pdf)
+(password for the PDF is 618813)
