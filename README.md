@@ -1,12 +1,12 @@
-# Digital Verifiable Lab Test Results
+# Digital Verifiable Lab Test Results & Vaccination Proof
 
-> We are building this application mainly for Germany and the EU. We want to be as open and transparent as possible, 
+> We are offerint this application to help fighting the Covid19 pandemic. We want to be as open and transparent as possible, 
 > also to interested parties in the global developer community and to other stakeholders who do not speak German. 
 > Consequently, most of the content will be made available in german and english language.
 
 ## General Idea
 
-The idea of this system is to make a lab-result available in a digital form in a privacy friendly way and under control of the user.
+The idea of this system is to make a lab-result or a vaccination status available in a digital form in a privacy friendly way and under control of the user.
 
 ## Involved Parties/legal entities
 
